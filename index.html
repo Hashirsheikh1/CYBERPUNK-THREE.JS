@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+  <div class="main w-full ">
+    <nav class="fixed top-0 left-0 px-10 py-3 flex justify-between items-center w-full ">
+      <img 
+        class="w-[160px] mix-blend-screen w-3/4"
+        style="filter: saturate(2) contrast(1.5);"
+        src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b"
+        alt="">
+        <div class="gap-12 flex item-center ">
+        <a href="#" class="text-white hover:text-yellow-500 transition duration-200 font-bold text-lg">Games</a>
+        <a href="#" class="text-white hover:text-yellow-500 transition duration-200 font-bold text-lg">Leaderboard</a>
+        <a href="#" class="text-white hover:text-yellow-500 transition duration-200 font-bold text-lg">Community</a>
+        <a href="#" class="text-white hover:text-yellow-500 transition duration-200 font-bold text-lg">Download</a>
+
+        </div>
+    </nav>
+    <div class="w-full h-screen overflow-hidden">
+      <img 
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-screen w-3/4"
+        style="filter: saturate(2) contrast(1.5);"
+        src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b"
+        alt="">
+      <canvas id="canvas"></canvas>
+
+    </div>
+
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
